@@ -48,7 +48,7 @@ botones.forEach((boton) => {
 
 // eval es un funcion de javascript que evalua una cadena de texto como si fuera codigo JS.
 // en este caso, evalua la cadena de texto que se encuentra en la pantalla y devuelve el resultado de la operacion.
-// otra forma de usar eval seria con una funcion con un objeto que contenga las operaciones y los numeros ejemplo:
+// otra forma en vez de usar eval seria con una funcion con un objeto que contenga las operaciones:
 
 // const operaciones = {
 //   "+": (a, b) => a + b,
@@ -56,3 +56,5 @@ botones.forEach((boton) => {
 //   "*": (a, b) => a * b,
 //   "/": (a, b) => b !== 0 ? a / b : "ERROR",
 // };
+
+// La propiedad textContent de la interfaz Node representa el contenido de texto de un nodo y sus dencendientes.
